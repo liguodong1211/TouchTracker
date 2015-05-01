@@ -16,7 +16,7 @@
 		133D403A1AF3192E00F6EE80 /* TouchTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 133D40391AF3192E00F6EE80 /* TouchTrackerTests.m */; };
 		133D40451AF31AAC00F6EE80 /* BNRLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 133D40441AF31AAC00F6EE80 /* BNRLine.m */; };
 		133D40481AF31C0A00F6EE80 /* BNRDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133D40471AF31C0A00F6EE80 /* BNRDrawViewController.m */; };
-		133D404B1AF31CD000F6EE80 /* BNRDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 133D404A1AF31CD000F6EE80 /* BNRDrawView.m */; };
+		13B177171AF3AB96006B1939 /* BNRDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B177161AF3AB96006B1939 /* BNRDrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		133D40461AF31C0A00F6EE80 /* BNRDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDrawViewController.h; sourceTree = "<group>"; };
 		133D40471AF31C0A00F6EE80 /* BNRDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDrawViewController.m; sourceTree = "<group>"; };
 		133D40491AF31CD000F6EE80 /* BNRDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDrawView.h; sourceTree = "<group>"; };
-		133D404A1AF31CD000F6EE80 /* BNRDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDrawView.m; sourceTree = "<group>"; };
+		13B177161AF3AB96006B1939 /* BNRDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRDrawView.m; path = ../BNRDrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,20 +90,20 @@
 		133D401C1AF3192D00F6EE80 /* TouchTracker */ = {
 			isa = PBXGroup;
 			children = (
+				13B177161AF3AB96006B1939 /* BNRDrawView.m */,
 				133D40211AF3192D00F6EE80 /* AppDelegate.h */,
-				133D40431AF31AAC00F6EE80 /* BNRLine.h */,
+				133D40221AF3192D00F6EE80 /* AppDelegate.m */,
+				133D40491AF31CD000F6EE80 /* BNRDrawView.h */,
 				133D40461AF31C0A00F6EE80 /* BNRDrawViewController.h */,
 				133D40471AF31C0A00F6EE80 /* BNRDrawViewController.m */,
-				133D40491AF31CD000F6EE80 /* BNRDrawView.h */,
-				133D404A1AF31CD000F6EE80 /* BNRDrawView.m */,
+				133D40431AF31AAC00F6EE80 /* BNRLine.h */,
 				133D40441AF31AAC00F6EE80 /* BNRLine.m */,
-				133D40221AF3192D00F6EE80 /* AppDelegate.m */,
-				133D40241AF3192D00F6EE80 /* ViewController.h */,
-				133D40251AF3192D00F6EE80 /* ViewController.m */,
-				133D40271AF3192D00F6EE80 /* Main.storyboard */,
 				133D402A1AF3192D00F6EE80 /* Images.xcassets */,
 				133D402C1AF3192D00F6EE80 /* LaunchScreen.xib */,
+				133D40271AF3192D00F6EE80 /* Main.storyboard */,
 				133D401D1AF3192D00F6EE80 /* Supporting Files */,
+				133D40241AF3192D00F6EE80 /* ViewController.h */,
+				133D40251AF3192D00F6EE80 /* ViewController.m */,
 			);
 			path = TouchTracker;
 			sourceTree = "<group>";
@@ -237,7 +237,7 @@
 				133D40261AF3192D00F6EE80 /* ViewController.m in Sources */,
 				133D40481AF31C0A00F6EE80 /* BNRDrawViewController.m in Sources */,
 				133D40231AF3192D00F6EE80 /* AppDelegate.m in Sources */,
-				133D404B1AF31CD000F6EE80 /* BNRDrawView.m in Sources */,
+				13B177171AF3AB96006B1939 /* BNRDrawView.m in Sources */,
 				133D40451AF31AAC00F6EE80 /* BNRLine.m in Sources */,
 				133D40201AF3192D00F6EE80 /* main.m in Sources */,
 			);
@@ -434,6 +434,7 @@
 				133D403F1AF3192E00F6EE80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		133D40401AF3192E00F6EE80 /* Build configuration list for PBXNativeTarget "TouchTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +443,7 @@
 				133D40421AF3192E00F6EE80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
