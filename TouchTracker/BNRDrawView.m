@@ -55,6 +55,8 @@
     [self setNeedsDisplay];
 }
 
+//huo xian
+
 -(void)strokeLine:(BNRLine *)line{
     UIBezierPath *bp = [UIBezierPath bezierPath];
     bp.lineWidth = 10;
